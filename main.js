@@ -54,7 +54,7 @@ function vowel(){
     let vowelCount = 0;
     let otherLetters = 0;
     for (let i = 0; i < inputValue.value.length; i ++){
-        letter = inputValue.value[i];
+        letter = inputValue.value[i].toLowerCase();
         if(letter === 'a' || letter ==='e' || letter === 'i'|| letter ==='o'||letter ==='u'){
             vowelCount += 1;
         }else{

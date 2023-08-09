@@ -54,9 +54,10 @@ button:hover{
 }
 
 .outputContainer{
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
-    min-height: 50px;
-    max-height: fit-content;
+    height: fit-content;
     margin: 20px auto;
     background-color: white;
     box-shadow: 5px 5px 45px rgb(227, 173, 158);
@@ -71,4 +72,5 @@ button:hover{
     font-size: 1.5rem;
     font-weight: 700;
     color: rgb(16, 77, 57);
+    
 }
