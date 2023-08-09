@@ -24,6 +24,9 @@ for(let i = 0; i<buttons.length;i++){
             case "vowel":
                 vowel();
                 break
+            case 'removewhitespace':
+                removewhitespace();
+                break
             default:
                 alert("Happy Hacking");
          }
@@ -34,8 +37,9 @@ for(let i = 0; i<buttons.length;i++){
 
 
 function spliting(){
-   let word = inputValue.value.split(" ")
-   outputfield.innerText = word;
+   let word = inputValue.value.split(" ");
+
+   outputfield.innerText = word.join(",");
 }
 
 function reverse(){
@@ -65,3 +69,8 @@ function vowel(){
 
 }
 
+function removewhitespace(){
+    let word = inputValue.value.split(" ").join("");
+    outputfield.innerText = word;
+
+}
