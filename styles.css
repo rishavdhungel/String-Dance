@@ -1,0 +1,74 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color:rgb(142, 206, 207);
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 100px auto;
+    background-color: white;
+    box-shadow: 5px 5px 45px rgb(250, 188, 143);
+    padding: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputfield{
+    width: 90%;
+    height: 50px;
+    margin:  2px auto;
+    padding: 10px;
+    box-shadow: 4px 5px 20px rgb(157, 207, 200);
+    border: 1px white solid;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+
+.buttonContainer{
+    margin-top:30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: rgb(21, 92, 83);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: rgb(56, 130, 105);
+    color: white;
+}
+
+.outputContainer{
+    width: 50%;
+    min-height: 50px;
+    max-height: fit-content;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 5px 5px 45px rgb(227, 173, 158);
+    padding: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.outputField{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(16, 77, 57);
+}
